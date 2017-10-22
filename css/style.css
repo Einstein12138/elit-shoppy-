@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	background-image: url('../images/banner3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.active_link:after{
+	
+	content: "";
+	background-color: #2fdab8;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+}
+.active_link{
+	background-color: #000;
+}
+.big-link{
+	color: #fff !important;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin: 0 8px;
+}
+.big-link:hover.big-link:after{
+	content: "";
+	background-color: #2fdab8;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+}
+.fal{
+	padding: 40px 0;
+	background-color: #fff;
+
+}
+.infal{
+	padding: 0 !important;
+}
+.fal_left{
+	text-align: center;
+}
+
+.fal_right{
+	text-align: center;
+}
+.fal_img{
+	display: inline;
+	margin: 5px 0;
+}
+.logo_fp{
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 50px;
+	letter-spacing: 8px;
+}
+.logo_fp span{
+	color:  #2fdab8;
+}
+.logo_sp{
+	font-size: 20px;
+	color: orange;
+	margin-bottom: 20px;
+	letter-spacing: 8px;
+}
+@media screen and (max-width: 1200px){
+	.logo_fp{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 768px){
+	.logo_fp{
+		font-size: 14px;
+		margin-bottom: 0px;
+		letter-spacing: 5px;
+	}
+	.logo_sp{
+		font-size: 14px;
+		margin-bottom: 0px;
+		letter-spacing: 5px;
+	}
+}
+.carousel{
+	position: relative;
+}
+.carousel img{
+	width: 100%;
+}
+.save{
+	background-color: #fff;
+}
+.save_left{
+	height: 533px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (max-width: 1200px){
+	.save_left{
+		width: 100%;
+		min-height: 533px;
+	}
+}
+@media screen and (max-width: 768px){
+	.save_left{
+		width: 100%;
+		min-height: 300px;
+	}
+}
+
+.save_right{
+	background-color: #2fdab8;
+	height: 533px;
+
+}
+.out-trend{
+	background-color: #fff;
+}
+.trend img{
+	display: inline;
+}
+.bg_p{
+	font-size: 40px;
+	text-align: center;
+	padding: 15px 10px;
+}
+.trend_left{
+	padding: 0;
+	margin: 5px 0;
+	text-align: center;
+}
+.trend_rig{
+	padding: 0;
+	margin: 5px 0;
+	text-align: center;
+}
+.right_fir{
+	padding: 0 0 60px 0;
+}
+.flat{
+	background-color: #fff;
+	padding: 5px 0
+}
+.flat img{
+	margin: 5px 0;
+	display: inline;
+	width: 100%;
+}
+.flat_left{
+	text-align: center;
+}
+.flat_right{
+	text-align: center;
+}
+.fir_row{
+	height: 100px;
+}
+.fir_row_det{
+	height: 100px;
+	padding-left: 15px;
+  	padding-right: 15px;
+}
+.new-arrival{
+	background-color: #fff;
+}
+.new_ul{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.new_ul li{
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.new_ul li a{
+	height: 50px;
+	color:#000;
+	font-weight: 900;
+}
+.new_ul > .active{
+	background-color:  #fc636b;
+}
+.new-a-good{
+	height: 400px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid rgba(255,255,255,.3);
+	box-shadow: 0 0 5px;
+	text-align: center;
+}
+.new-a-good img{
+	width: 200px;
+	height: 220px;
+	display: inline;
+	margin: auto;
+}
+.out-new{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+.new{
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background-color: #fc636b;
+	color: #fff;
+	padding: 0;
+	float: right;
+}
+.good-name{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+}
+.good-pre-price{
+	color: #aaa;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+.buy-now{
+	width: 140px;
+	height: 30px;
+	background-color: #2fdab8;
+	outline: 4px solid #2fdab8;
+	outline-offset: -4px;
+	margin: auto;
+	margin-top: 15px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+.buy-now:hover{
+	outline: 4px solid #2fdab8;
+	outline-offset: 7px;
+
+	transition: all .3s ease-in;
+}
+.discount{
+	padding: 150px 0;
+}
+.dis-p{
+	color: #fff;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: center;
+}
+.fourty{
+	color: #000;
+}
+.bottom{
+	padding: 50px 0 20px;
+	background-color: #000;
+}
+.bot-left-fir-p{
+	color: #fff;
+	padding: 8px 0;
+	font-size: 24px;
+}
+.bot-sec{
+	padding: 0 10px;
+}
+.bot-sec li{
+	line-height: 25px;
+}
+.rig-first{
+	padding: 0 10px;
+}
+.rig-fir-info{
+	padding: 10px 5px;
+	margin: 5px 0;
+	color: #fff;
+	background-color: rgba(169,169,169,.1);
+}
+.rig-sec img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 5px;
+}
+.to-top{
+	background-color: #000;
+}
